@@ -1,6 +1,7 @@
 # Интеграции
 ## 1. Диаграмма
-![sysdesign_hw2 drawio (5)](https://github.com/user-attachments/assets/6befa048-d443-4a17-a7b0-cff099b9809f)
+![sysdesign_hw2 drawio (6)](https://github.com/user-attachments/assets/0ecc0901-6506-4078-9d6f-22127ca36a85)
+
 
 
 
@@ -35,7 +36,6 @@
 
 | Интеграция                 | Тип             | Обоснование                   |
 | ----------------------------- | --------------- | ----------------------------- |
-| Artist Service → Yandex Music | Sync (API)      | Получение дискографии артиста |
 | Event Service → Yandex Maps   | Sync (API)      | Получение геолокаций площадок |
 | Booking Service → ЮKassa      | Sync (API)      | Проведение платежа            |
 | ЮKassa → Booking Service      | Async (Webhook) | Подтверждение платежа. Webhook для стабилизации сессии на весь процесс оплаты         |
